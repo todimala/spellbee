@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.citigroup.auth.AuthMicroServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.154 sec - in com.citigroup.auth.AuthMicroServiceApplicationTests
