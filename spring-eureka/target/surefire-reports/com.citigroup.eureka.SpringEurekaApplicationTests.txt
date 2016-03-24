@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.citigroup.eureka.SpringEurekaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.435 sec - in com.citigroup.eureka.SpringEurekaApplicationTests
