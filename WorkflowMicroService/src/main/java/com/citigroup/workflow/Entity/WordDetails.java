@@ -8,8 +8,7 @@ import javax.persistence.Id;
 @Entity(name = "worddetails")
 public class WordDetails {
 	@Id
-
-	@Column(name = "wordId")
+	@Column(name = "word_id")
 	private String id;
 	@Column(name = "word")
 	private String word;
@@ -17,12 +16,9 @@ public class WordDetails {
 	private String difficultyLev;
 	@Column(name = "status")
 	private String status;
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
+	@Column(name = "userid")
+	private String userId;
+	
 	public String getWord() {
 		return word;
 	}
@@ -40,6 +36,18 @@ public class WordDetails {
 	}
 	public void setStatus(String status) {
 		this.status = status;
+	}
+	public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	
